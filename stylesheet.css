@@ -1,0 +1,93 @@
+body{
+  width: 100%;
+  font-family: sans-serif;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #330867;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  color: #fff;
+}
+.header-left{
+  float: left;
+  color:white;
+}
+.list-header li{
+  color: #fff;
+  float: left;
+  list-style: none;
+  padding:30px 20px;
+}
+
+.logo-header{
+  width:200px;
+  margin-top:-30px;
+}
+
+.header-right{
+  float: right;
+}
+
+.top-main{
+padding: 180px 0 100px 0;
+background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);;
+background-size:cover;
+text-align: center;
+font-family: sans-serif;
+background-attachment: fixed;
+}
+.container h1{
+  font-size: 45px;
+  color: whitesmoke;
+  text-shadow: 2cm;
+}
+.container p {
+font-size: 20px;
+color:whitesmoke;
+line-height: 5px;
+}
+.container{
+  margin-bottom: 60px;
+  margin-top:30px
+}
+.search-box{
+  width:500px;
+  margin-right: -80px;
+}
+.search {
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+}
+.button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid #53bd84;
+  background-color:#53bd84;
+  color:#fafafa;
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+
+.film {
+	padding-top: 20px;
+	background-color: #3e7998;
+	font-family: century gothic;
+  text-align: center;
+}
+.film h2 {
+	text-align: center;
+}
+.genre {
+	display: inline-flex;	
+}
+.action {
+	padding: 5px 55px;
+	margin: 10px;	
+	text-align: center;}
