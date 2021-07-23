@@ -1,0 +1,51 @@
+@media (max-width: 670px) {
+	.action {		
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-size: 10px;			
+	}
+	.action img {
+		width: 50%;
+		height: auto;
+	}
+	.container h1{
+		justify-content:center;
+		display:flex;
+		flex-wrap:wrap;
+		font-size:25px;
+		letter-spacing:5px;
+		line-height:40px;
+	}
+	.container p{
+		justify-content:center;
+		display:flex;
+		flex-wrap:wrap;
+		font-size: 15px;
+		line-height:10px;
+	}
+}
+@media (max-width: 1000px) {
+	.action {		
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;					
+	}
+	.action img {
+		width: 75%;
+		height: 75%;
+	}
+	.container h1{
+		justify-content:center;
+		display:flex;
+		flex-wrap:wrap;
+
+	}
+	.container p{
+		justify-content:center;
+		display:flex;
+		flex-wrap:wrap;
+
+	}
+
+}
